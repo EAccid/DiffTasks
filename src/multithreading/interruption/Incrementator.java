@@ -83,7 +83,7 @@ public class Incrementator extends Thread {
                 e.printStackTrace();
                 Thread.currentThread().interrupt(); //set flag interrupt true
                 System.out.println("incrementator thread  is interrupted - " + Thread.interrupted());
-//                return;
+                return; //An infinite loop occurs, if do not return !!!! .stop() - deprecated
             }
 
             //if this thread join()

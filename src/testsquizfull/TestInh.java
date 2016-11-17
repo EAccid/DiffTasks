@@ -18,7 +18,7 @@ class D extends C {
         System.out.println("testsquizfull.B action");
     }
 }
-public class Test {
+public class TestInh {
     public static void main(String[] args) {
         new D().start(new BB());
     }

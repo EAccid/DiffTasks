@@ -1,12 +1,12 @@
 package testsquizfull;
 
-public class B extends A {
+public class BConstructors extends A {
 
-    public B() {
+    public BConstructors() {
         System.out.print("Empty");
     }
 
-    public B(String s) {
+    public BConstructors(String s) {
         System.out.print(s);
     }
 
@@ -22,7 +22,7 @@ class A {
     }
 
     public static void main(String[] args) {
-        new B("AB");
+        new BConstructors("AB");
     }
 }
 
