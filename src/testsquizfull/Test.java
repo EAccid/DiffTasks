@@ -1,3 +1,5 @@
+package testsquizfull;
+
 class AA { }
 
 class BB extends AA { }
@@ -10,10 +12,10 @@ abstract class C {
 }
 class D extends C {
     void doAction(AA AA) {
-        System.out.println("AA action");
+        System.out.println("testsquizfull.AA action");
     }
     void doAction(BB b) {
-        System.out.println("B action");
+        System.out.println("testsquizfull.B action");
     }
 }
 public class Test {

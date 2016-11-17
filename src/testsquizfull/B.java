@@ -1,3 +1,5 @@
+package testsquizfull;
+
 public class B extends A {
 
     public B() {
@@ -16,7 +18,7 @@ class A {
     }
 
     public A(String s) {
-        System.out.print("AA");
+        System.out.print("testsquizfull.AA");
     }
 
     public static void main(String[] args) {

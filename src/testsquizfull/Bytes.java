@@ -1,3 +1,5 @@
+package testsquizfull;
+
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
@@ -5,11 +7,11 @@ public class Bytes {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
 
-        System.out.println("A".getBytes("UTF-16").length);
-        System.out.println("AA".getBytes("UTF-16").length);
+        System.out.println("testsquizfull.A".getBytes("UTF-16").length);
+        System.out.println("testsquizfull.AA".getBytes("UTF-16").length);
 
-        System.out.println("A".getBytes("UTF-8"));
-        System.out.println("AA".getBytes("UTF-8"));
+        System.out.println("testsquizfull.A".getBytes("UTF-8"));
+        System.out.println("testsquizfull.AA".getBytes("UTF-8"));
 
         int[][] a = {{1, 2, 3}, {4, 0, 0,},};
         System.out.println(Arrays.deepToString(a));
