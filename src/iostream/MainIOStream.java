@@ -3,7 +3,9 @@ package iostream;
 import java.io.BufferedReader;
 import java.io.CharArrayReader;
 import java.io.FileInputStream;
+import java.nio.charset.Charset;
 import java.util.List;
+import java.util.Set;
 
 public class MainIOStream {
 
@@ -31,6 +33,14 @@ public class MainIOStream {
         br.close();
 
         System.out.println(System.getProperty("user.dir"));
+
+       ////////
+
+        Charset cset = Charset.forName("ISO-8859-1");
+
+        Set<String> aliases = cset.aliases();
+        for (String alias : aliases)
+            System.out.println(alias);
 
     }
 
