@@ -1,5 +1,7 @@
 package generics;
 
+import java.util.List;
+
 interface HasBatteries {
 }
 
@@ -14,6 +16,7 @@ class Toy {
     // умолчанию, тогда в строке с пометкой (*1*)
     // возникнет ошибка NoSuchMethodError
     Toy() {
+        System.out.println(List.class);
     }
 
     Toy(int i) {
