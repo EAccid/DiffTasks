@@ -14,15 +14,12 @@ class Test <X extends Object> {
     }
     public static void main(String args[]) {
 
-
         Integer integer = new Integer(1);
         Double doubl = integer.doubleValue();
 
 
         Test<Integer> a = new Test<>(integer);
         System.out.print(a.getDouble());
-
-
 
     }
 
