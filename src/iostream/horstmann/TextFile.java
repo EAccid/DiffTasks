@@ -1,4 +1,4 @@
-package iostream;
+package iostream.horstmann;
 
 import java.io.*;
 import java.util.ArrayList;

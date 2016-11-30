@@ -12,9 +12,6 @@ public class DirList {
         File path = new File(".");
         String[] list;
 
-//        if(args.length == 0)
-//            list = path.list();
-//        else
         list = path.list(new DirFilter("^IOS.*"));
 
         Arrays.sort(list, String.CASE_INSENSITIVE_ORDER);

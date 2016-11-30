@@ -5,9 +5,6 @@ import algorithms.UnionFind;
 import algorithms.quickfind.QuickFindUF;
 import algorithms.quickunion.QuickUnionUF;
 
-import java.util.LinkedHashSet;
-import java.util.Set;
-
 /**
  * Dynamic-connectivity client
  * Read in number of objects N from standard input.
@@ -48,9 +45,7 @@ public class MainConnectivity {
         setUnion();
         testConnection(5, 4);
 
-
-        Set<String> str = new LinkedHashSet<>();
-    }
+       }
 
     private static void setQuickFind() {
         unionFind = new QuickFindUF(10);
