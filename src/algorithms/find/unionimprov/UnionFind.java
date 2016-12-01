@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.find.unionimprov;
 
 public interface UnionFind {
 

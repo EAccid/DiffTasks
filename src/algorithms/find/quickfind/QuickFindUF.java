@@ -1,6 +1,6 @@
-package algorithms.quickfind;
+package algorithms.find.quickfind;
 
-import algorithms.UnionFind;
+import algorithms.find.unionimprov.UnionFind;
 
 import java.util.Arrays;
 

@@ -1,9 +1,9 @@
-package algorithms.dynamicconnectivity;
+package algorithms.find.dynamicconnectivity;
 
-import algorithms.QuickUnionImprovement;
-import algorithms.UnionFind;
-import algorithms.quickfind.QuickFindUF;
-import algorithms.quickunion.QuickUnionUF;
+import algorithms.find.unionimprov.QuickUnionImprovement;
+import algorithms.find.unionimprov.UnionFind;
+import algorithms.find.quickfind.QuickFindUF;
+import algorithms.find.quickunion.QuickUnionUF;
 
 /**
  * Dynamic-connectivity client

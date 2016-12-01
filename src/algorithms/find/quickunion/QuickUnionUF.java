@@ -1,6 +1,6 @@
-package algorithms.quickunion;
+package algorithms.find.quickunion;
 
-import algorithms.UnionFind;
+import algorithms.find.unionimprov.UnionFind;
 import java.util.Arrays;
 
 public class QuickUnionUF implements UnionFind{
